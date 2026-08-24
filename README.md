@@ -10,7 +10,7 @@ MIDI to TD-3 converts Standard MIDI files into Behringer TD-3 and TD-3-MO patter
 
 Use the official [`timefracture/midi-to-td3-downloads` Releases page](https://github.com/timefracture/midi-to-td3-downloads/releases) to download the latest installer.
 
-**T-1.10.1 is the earliest supported public beta.** Earlier builds are intentionally not distributed here because they do not contain beta-expiry enforcement. Do not install or redistribute unofficial older builds.
+**T-1.12 is the earliest supported and available public beta.** Earlier builds are intentionally not distributed here. Do not install, mirror, or redistribute unofficial older builds.
 
 Current macOS installers are universal and support Apple Silicon and Intel Macs. A Windows installer may be added in a future release.
 
