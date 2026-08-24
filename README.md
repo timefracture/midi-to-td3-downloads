@@ -12,7 +12,24 @@ Use the official [`timefracture/midi-to-td3-downloads` Releases page](https://gi
 
 **T-1.12 is the earliest supported and available public beta.** Earlier builds are intentionally not distributed here. Do not install, mirror, or redistribute unofficial older builds.
 
-Current macOS installers are universal and support Apple Silicon and Intel Macs. A Windows installer may be added in a future release.
+## Supported systems
+
+| System | Availability | Installer |
+| --- | --- | --- |
+| Mac with an Intel processor | **Available now** | Universal macOS DMG |
+| Mac with an Apple M-series processor (Apple Silicon) | **Available now** | Universal macOS DMG |
+| Windows | **Not available yet** | Planned next |
+
+The same universal macOS DMG supports both Intel Macs and Apple Silicon Macs, including M1, M2, M3, M4 and later M-series processors. There is currently no official Windows installer in this repository.
+
+## Feature roadmap
+
+The currently planned development order is:
+
+1. **Windows support** — build, test and publish a native Windows version with the same core conversion and TD-3 functionality as the Mac version.
+2. **32-step sequences** — extend the current 16-step limit by splitting and flashing a 32-step sequence across two TD-3 pattern banks.
+
+These are planned features and are not included in the current beta downloads. Roadmap details may be refined during hardware testing.
 
 ## Installing or updating on macOS
 
