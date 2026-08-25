@@ -1,15 +1,15 @@
 {
-  "version": "1.16.0",
-  "notes": "UI updates.",
-  "pub_date": "2026-08-25T09:12:02.452Z",
+  "version": "1.17.0",
+  "notes": "Latest note is now the default chord handling mode, while Lowest note and Highest note remain available.",
+  "pub_date": "2026-08-25T10:51:59.705Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdWE5eFdNSjg3Qzh3dEdxM0FLdm5SVkwwTXhDSTlNMWIrbDdJbnhQaVpOQzFsYVBDazNuNmEzaEhuY3NRZDRYS285ZnZnOGJKVFd1elhLR01MUEJudGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQ5MTE3CWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKTkpscXJzTjEyQzN4SzhwTDlmdmRoelVxTGs1UUFJU05ndGZuNE1xWk5CeEtlcXVUVHdDTFdZcXREU3VUUWdMMHh2d2ZlQURhR3RKRm5DeWpXN1UxRFE9PQo=",
-      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.16/MIDI.to.TD-3_1.16.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVZjR1B6TUxScy9HTjNtVFY4K0NwaVQyeVEzcVFaNWRCV1FoeVdiamZ6b0piQW5sUmhkUmw5Y3B6K1psVjBBWG5RSnJaZFUwWUNzcEk2UUtYOFEyaVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjU1MTEyCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKM3FtQWJ5YUVnbkU1UWJKZVpQdFpkdk5TR1NOWmVkTGNUZGxPbmR5dFEvOG9PZC8yd0djeEphWXJ3WUVOakR4SjdCZDIwelNDdFpMVk5mdjJEMXU3RHc9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.17/MIDI.to.TD-3_1.17.0_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdWE5eFdNSjg3Qzh3dEdxM0FLdm5SVkwwTXhDSTlNMWIrbDdJbnhQaVpOQzFsYVBDazNuNmEzaEhuY3NRZDRYS285ZnZnOGJKVFd1elhLR01MUEJudGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQ5MTE3CWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKTkpscXJzTjEyQzN4SzhwTDlmdmRoelVxTGs1UUFJU05ndGZuNE1xWk5CeEtlcXVUVHdDTFdZcXREU3VUUWdMMHh2d2ZlQURhR3RKRm5DeWpXN1UxRFE9PQo=",
-      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.16/MIDI.to.TD-3_1.16.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVZjR1B6TUxScy9HTjNtVFY4K0NwaVQyeVEzcVFaNWRCV1FoeVdiamZ6b0piQW5sUmhkUmw5Y3B6K1psVjBBWG5RSnJaZFUwWUNzcEk2UUtYOFEyaVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjU1MTEyCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKM3FtQWJ5YUVnbkU1UWJKZVpQdFpkdk5TR1NOWmVkTGNUZGxPbmR5dFEvOG9PZC8yd0djeEphWXJ3WUVOakR4SjdCZDIwelNDdFpMVk5mdjJEMXU3RHc9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.17/MIDI.to.TD-3_1.17.0_universal.app.tar.gz"
     }
   }
 }
