@@ -2,15 +2,17 @@
 
 Official beta installers for **MIDI to TD-3** by **timefracture**.
 
-Instagram: [@timefracture.techno](https://www.instagram.com/timefracture.techno/)
+Instagram: [@timefracture.techno](https://www.instagram.com/timefracture.techno/) · **[Support development on Ko-fi](https://ko-fi.com/timefracturetechno)**
 
 MIDI to TD-3 converts Standard MIDI files into Behringer TD-3 and TD-3-MO patterns. It can save SynthTribe-compatible `.seq` files and experimentally write patterns directly to a connected TD-3 or TD-3-MO.
 
+MIDI to TD-3 is independently developed. If it saves you time or helps your music, please consider [buying timefracture a coffee on Ko-fi](https://ko-fi.com/timefracturetechno). Support helps fund continued development, testing, and the upcoming Windows version.
+
 ## Download
 
-Use the official [`timefracture/midi-to-td3-downloads` Releases page](https://github.com/timefracture/midi-to-td3-downloads/releases) to download the latest installer.
+Download the newest installer from the official **[MIDI to TD-3 Releases page](https://github.com/timefracture/midi-to-td3-downloads/releases)**.
 
-**T-1.12 is the earliest supported and available public beta.** Earlier builds are intentionally not distributed here. Do not install, mirror, or redistribute unofficial older builds.
+**T-1.15.1 is the earliest supported and available public beta.** Earlier builds are intentionally no longer distributed. Do not install, mirror, or redistribute unofficial older builds.
 
 ## Supported systems
 
@@ -18,15 +20,15 @@ Use the official [`timefracture/midi-to-td3-downloads` Releases page](https://gi
 | --- | --- | --- |
 | Mac with an Intel processor | **Available now** | Universal macOS DMG |
 | Mac with an Apple M-series processor (Apple Silicon) | **Available now** | Universal macOS DMG |
-| Windows | **Not available yet** | Planned next |
+| Windows 11 | **Not available yet** | In development |
 
-The same universal macOS DMG supports both Intel Macs and Apple Silicon Macs, including M1, M2, M3, M4 and later M-series processors. There is currently no official Windows installer in this repository.
+The same universal macOS DMG supports both Intel Macs and Apple Silicon Macs, including M1, M2, M3, M4 and later M-series processors. **macOS for Intel Macs is now supported.** A native Windows 11 version is being worked on, but it is not ready or available yet.
 
 ## Feature roadmap
 
 The currently planned development order is:
 
-1. **Windows support** — build, test and publish a native Windows version with the same core conversion and TD-3 functionality as the Mac version.
+1. **Windows 11 support** — build, test and publish a native Windows version with the same core conversion and TD-3 functionality as the Mac version.
 2. **32-step sequences** — extend the current 16-step limit by splitting and flashing a 32-step sequence across two TD-3 pattern banks.
 
 These are planned features and are not included in the current beta downloads. Roadmap details may be refined during hardware testing.
@@ -39,11 +41,17 @@ After copying the app to **Applications** and attempting to open it once, go to 
 
 Read the complete step-by-step guide before installing or replacing a beta: **[Install or update MIDI to TD-3 on macOS](MACOS_INSTALLATION.md)**.
 
-## Signed updates and beta policy
+## Major upgrade: in-app updater
 
-Starting with T-1.15, the app can download, signature-check, install, and restart into a newer version itself. The update archive must match timefracture's embedded public key; changed, corrupted, or incorrectly signed files are refused. No private signing key or GitHub token is included in the app.
+Starting with T-1.15.1, MIDI to TD-3 can download, verify, install, and restart into a newer beta directly from inside the app. This is a major upgrade to the release workflow: normal beta updates no longer require manually downloading a new DMG and replacing the application.
 
 A beta remains usable while it is the newest official release. Publishing a newer release starts an update window for compatible older versions: **14 days by default**. The release page may announce a different period with a visible `Update grace period: N days` line. After the displayed deadline, the update becomes mandatory before normal use can continue. A policy the app has already observed remains cached during network outages.
+
+## Support development
+
+MIDI to TD-3 is offered as an independent beta. Your support helps make continued macOS improvements, Windows 11 support, broader hardware testing, and future features possible.
+
+**[Support MIDI to TD-3 on Ko-fi](https://ko-fi.com/timefracturetechno)** and follow **[@timefracture.techno on Instagram](https://www.instagram.com/timefracture.techno/)** for development news.
 
 ## Before using direct TD-3 transfer
 
@@ -57,4 +65,4 @@ You may download and use these beta builds without charge for personal use and f
 
 The software is provided without warranty. You use it at your own risk. See the in-app disclaimer before use.
 
-T-1.15 and later use the release-relative update policy described above instead of a fixed built-in calendar expiry. Mandatory updates encourage testing and feedback against actively maintained code.
+T-1.15.1 and later use the release-relative update policy described above instead of a fixed built-in calendar expiry. Mandatory updates encourage testing and feedback against actively maintained code.

@@ -25,15 +25,13 @@ Apple explains this process in [Apple can't check app for malicious software](ht
 
 The **Open Anyway** option normally appears only after you have tried to open the installed app and remains available for about one hour. After approval, that particular build opens normally.
 
-## Update to a newer beta
+## Major upgrade: in-app updates
 
-Starting with T-1.15, the app can install signed updates itself:
+Starting with T-1.15.1, MIDI to TD-3 can install updates itself. Normal beta updates no longer require manually downloading another DMG and replacing the application:
 
 1. When **UPDATE T-X.Y** appears at the top of the app, click it.
 2. Review the version and release notes, then choose **INSTALL & RESTART**.
 3. Keep the app open while it downloads, verifies, and installs the update. It restarts automatically.
-
-The app verifies every update with timefracture's embedded public key. A changed, corrupted, or incorrectly signed archive is refused. The private signing key is not included in the app, manifest, installer, or public repository.
 
 While a beta is current it has no fixed expiry. When a newer official release is published, older compatible versions have 14 days to update by default. The release description may announce a different grace period. After the displayed deadline, the update screen cannot be dismissed and the app remains locked until a newer signed version is installed. A deadline the app has already seen remains cached during network outages.
 
@@ -49,3 +47,7 @@ Replacing the application does not delete MIDI files, saved `.seq` files, SynthT
 - Download a fresh copy only from this official repository if the file or source is uncertain.
 
 Do not use Terminal commands or third-party tools that remove quarantine protections globally.
+
+## Support development
+
+If MIDI to TD-3 is useful to you, please consider [supporting continued development on Ko-fi](https://ko-fi.com/timefracturetechno). Follow [@timefracture.techno on Instagram](https://www.instagram.com/timefracture.techno/) for release news and Windows 11 development updates.
