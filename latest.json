@@ -1,0 +1,15 @@
+{
+  "version": "1.15.0",
+  "notes": "MIDI to TD-3 T-1.15 beta update.",
+  "pub_date": "2026-08-25T00:24:58.232Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVpnL3c5eUxabytYQXd2UXRBQlhoenFSWGZHeGthVU8zVEcrTHZWRzVZbUxvMGgwbzI0V1kvM2M2Zm52aEpMeUVScEhOU1RrZnhEOWw5OUFmeWpQa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE3NDgzCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKYkdBSkw2R012R0RYS3FWZE82SnpnL2xWRTRiYzN5aDM0ckFWdXZySFFwdE9MTHpHOWVDZXZnWVVYdXBwalRBL08yV3BreTN0ejdlZlN3VmNiWUl5RFE9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15/MIDI.to.TD-3_1.15.0_universal.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVpnL3c5eUxabytYQXd2UXRBQlhoenFSWGZHeGthVU8zVEcrTHZWRzVZbUxvMGgwbzI0V1kvM2M2Zm52aEpMeUVScEhOU1RrZnhEOWw5OUFmeWpQa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE3NDgzCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKYkdBSkw2R012R0RYS3FWZE82SnpnL2xWRTRiYzN5aDM0ckFWdXZySFFwdE9MTHpHOWVDZXZnWVVYdXBwalRBL08yV3BreTN0ejdlZlN3VmNiWUl5RFE9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15/MIDI.to.TD-3_1.15.0_universal.app.tar.gz"
+    }
+  }
+}

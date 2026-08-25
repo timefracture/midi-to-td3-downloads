@@ -39,6 +39,12 @@ After copying the app to **Applications** and attempting to open it once, go to 
 
 Read the complete step-by-step guide before installing or replacing a beta: **[Install or update MIDI to TD-3 on macOS](MACOS_INSTALLATION.md)**.
 
+## Signed updates and beta policy
+
+Starting with T-1.15, the app can download, signature-check, install, and restart into a newer version itself. The update archive must match timefracture's embedded public key; changed, corrupted, or incorrectly signed files are refused. No private signing key or GitHub token is included in the app.
+
+A beta remains usable while it is the newest official release. Publishing a newer release starts an update window for compatible older versions: **14 days by default**. The release page may announce a different period with a visible `Update grace period: N days` line. After the displayed deadline, the update becomes mandatory before normal use can continue. A policy the app has already observed remains cached during network outages.
+
 ## Before using direct TD-3 transfer
 
 This is experimental beta software. Make a complete backup of your TD-3 or TD-3-MO with SynthTribe before writing patterns. Direct transfer could overwrite or clear pattern data if something goes wrong.
@@ -51,4 +57,4 @@ You may download and use these beta builds without charge for personal use and f
 
 The software is provided without warranty. You use it at your own risk. See the in-app disclaimer before use.
 
-Each beta has a built-in expiry date. Expiry encourages testers to install current builds and ensures feedback relates to the software currently being developed.
+T-1.15 and later use the release-relative update policy described above instead of a fixed built-in calendar expiry. Mandatory updates encourage testing and feedback against actively maintained code.

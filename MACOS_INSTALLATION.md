@@ -27,11 +27,17 @@ The **Open Anyway** option normally appears only after you have tried to open th
 
 ## Update to a newer beta
 
-1. Download the newer DMG from the app's **Update Available** button or the official [Releases page](https://github.com/timefracture/midi-to-td3-downloads/releases).
-2. Quit MIDI to TD-3.
-3. Open the new DMG and drag **MIDI to TD-3** into **Applications**.
-4. When Finder asks, choose **Replace**.
-5. Open the app from **Applications**. macOS may require the **Open Anyway** steps again because every beta is a new downloaded build.
+Starting with T-1.15, the app can install signed updates itself:
+
+1. When **UPDATE T-X.Y** appears at the top of the app, click it.
+2. Review the version and release notes, then choose **INSTALL & RESTART**.
+3. Keep the app open while it downloads, verifies, and installs the update. It restarts automatically.
+
+The app verifies every update with timefracture's embedded public key. A changed, corrupted, or incorrectly signed archive is refused. The private signing key is not included in the app, manifest, installer, or public repository.
+
+While a beta is current it has no fixed expiry. When a newer official release is published, older compatible versions have 14 days to update by default. The release description may announce a different grace period. After the displayed deadline, the update screen cannot be dismissed and the app remains locked until a newer signed version is installed. A deadline the app has already seen remains cached during network outages.
+
+If automatic installation fails, use **MANUAL DOWNLOAD**, quit the app, open the downloaded DMG, and drag **MIDI to TD-3** into **Applications**. When Finder asks, choose **Replace**. A manually downloaded replacement may require **Open Anyway** again.
 
 Replacing the application does not delete MIDI files, saved `.seq` files, SynthTribe backups, or patterns stored on a connected TD-3. Nevertheless, make a complete SynthTribe backup before using experimental direct pattern transfer.
 
