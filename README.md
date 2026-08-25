@@ -10,9 +10,9 @@ MIDI to TD-3 is independently developed. If it saves you time or helps your musi
 
 ## Download
 
-Download the newest installer from the official **[MIDI to TD-3 Releases page](https://github.com/timefracture/midi-to-td3-downloads/releases)**.
+Download the current installer from the official **[MIDI to TD-3 T-1.17 release page](https://github.com/timefracture/midi-to-td3-downloads/releases/tag/T-1.17)**.
 
-**T-1.15.1 is the earliest supported and available public beta.** Earlier builds are intentionally no longer distributed. Do not install, mirror, or redistribute unofficial older builds.
+**T-1.17 is the only supported and available public beta.** Older builds are intentionally no longer distributed. Do not install, mirror, or redistribute unofficial older builds.
 
 ## Supported systems
 
@@ -43,7 +43,7 @@ Read the complete step-by-step guide before installing or replacing a beta: **[I
 
 ## Major upgrade: in-app updater
 
-Starting with T-1.15.1, MIDI to TD-3 can download, verify, install, and restart into a newer beta directly from inside the app. This is a major upgrade to the release workflow: normal beta updates no longer require manually downloading a new DMG and replacing the application.
+The current T-1.17 beta can download, verify, install, and restart into a newer beta directly from inside the app. This is a major upgrade to the release workflow: normal beta updates no longer require manually downloading a new DMG and replacing the application.
 
 A beta remains usable while it is the newest official release. Publishing a newer release starts an update window for compatible older versions: **14 days by default**. The release page may announce a different period with a visible `Update grace period: N days` line. After the displayed deadline, the update becomes mandatory before normal use can continue. A policy the app has already observed remains cached during network outages.
 
@@ -65,4 +65,4 @@ You may download and use these beta builds without charge for personal use and f
 
 The software is provided without warranty. You use it at your own risk. See the in-app disclaimer before use.
 
-T-1.15.1 and later use the release-relative update policy described above instead of a fixed built-in calendar expiry. Mandatory updates encourage testing and feedback against actively maintained code.
+T-1.17 uses the release-relative update policy described above instead of a fixed built-in calendar expiry. Mandatory updates encourage testing and feedback against actively maintained code.

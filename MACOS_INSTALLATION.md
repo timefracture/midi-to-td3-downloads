@@ -27,7 +27,7 @@ The **Open Anyway** option normally appears only after you have tried to open th
 
 ## Major upgrade: in-app updates
 
-Starting with T-1.15.1, MIDI to TD-3 can install updates itself. Normal beta updates no longer require manually downloading another DMG and replacing the application:
+The current beta can install updates itself. Normal beta updates no longer require manually downloading another DMG and replacing the application:
 
 1. When **UPDATE T-X.Y** appears at the top of the app, click it.
 2. Review the version and release notes, then choose **INSTALL & RESTART**.
