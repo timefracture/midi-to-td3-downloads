@@ -1,15 +1,15 @@
 {
-  "version": "1.15.0",
-  "notes": "MIDI to TD-3 T-1.15 beta update.",
-  "pub_date": "2026-08-25T00:24:58.232Z",
+  "version": "1.15.1",
+  "notes": "Update grace period: 14 days\n\n## What changed\n\n- The current-version status now simply says: “You are running the latest beta version.”\n- No conversion, preview, TD-3 transfer, updater, or update-policy behavior changed.\n- Universal macOS installer for Apple Silicon and Intel Macs.\n\n## macOS installation or update\n\nThis independent beta is not yet signed and notarized through Apple’s paid Developer Program. macOS may therefore say Apple could not verify that the app is free of malware. This means Apple has not notarized the build; it does **not** mean macOS detected malware.\n\n1. Open the DMG and drag **MIDI to TD-3** into **Applications**. For an update, choose **Replace**.\n2. Try to open the copy in **Applications** once and close the macOS warning.\n3. Open **Apple menu → System Settings → Privacy & Security**.\n4. Scroll to **Security**, click **Open Anyway**, authenticate, and confirm **Open**.\n\nOnly manually approve a DMG downloaded from the official repository. See the [complete macOS installation and update guide](https://github.com/timefracture/midi-to-td3-downloads/blob/main/MACOS_INSTALLATION.md).\n\nMake a complete SynthTribe backup before using direct TD-3 transfer.\n\nDMG SHA-256: `3cb9dacb7fd12d8516df3ad22d558856f0079d78e68148ebce8c83bc0009e9b0`",
+  "pub_date": "2026-08-25T00:37:38.393Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVpnL3c5eUxabytYQXd2UXRBQlhoenFSWGZHeGthVU8zVEcrTHZWRzVZbUxvMGgwbzI0V1kvM2M2Zm52aEpMeUVScEhOU1RrZnhEOWw5OUFmeWpQa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE3NDgzCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKYkdBSkw2R012R0RYS3FWZE82SnpnL2xWRTRiYzN5aDM0ckFWdXZySFFwdE9MTHpHOWVDZXZnWVVYdXBwalRBL08yV3BreTN0ejdlZlN3VmNiWUl5RFE9PQo=",
-      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15/MIDI.to.TD-3_1.15.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVNRSlN6dURkSUllZ3hxK3E1VUZGR002V1hSWDRacEp4OTJrTWFJNm0wMVlzN3hra09BajVENitWL1R6SVJoa241Z0cyTjgyaVN0ajdQYkE0QmZMT2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE4MjAwCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKd0lrUmc3SWE3SmEvRmg0L2w2VXNnbWd0SGM0eUYyMllVZy9CSkdVZW9zWi9RTkdDVzUvNGVLbHpzVExqMVJ6N0pKUFFmVkZQcThjWmcwcVZVUitNRGc9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15.1/MIDI.to.TD-3_1.15.1_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVpnL3c5eUxabytYQXd2UXRBQlhoenFSWGZHeGthVU8zVEcrTHZWRzVZbUxvMGgwbzI0V1kvM2M2Zm52aEpMeUVScEhOU1RrZnhEOWw5OUFmeWpQa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE3NDgzCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKYkdBSkw2R012R0RYS3FWZE82SnpnL2xWRTRiYzN5aDM0ckFWdXZySFFwdE9MTHpHOWVDZXZnWVVYdXBwalRBL08yV3BreTN0ejdlZlN3VmNiWUl5RFE9PQo=",
-      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15/MIDI.to.TD-3_1.15.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOXRVTG9va2hxdVNRSlN6dURkSUllZ3hxK3E1VUZGR002V1hSWDRacEp4OTJrTWFJNm0wMVlzN3hra09BajVENitWL1R6SVJoa241Z0cyTjgyaVN0ajdQYkE0QmZMT2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjE4MjAwCWZpbGU6TUlESSB0byBURC0zLmFwcC50YXIuZ3oKd0lrUmc3SWE3SmEvRmg0L2w2VXNnbWd0SGM0eUYyMllVZy9CSkdVZW9zWi9RTkdDVzUvNGVLbHpzVExqMVJ6N0pKUFFmVkZQcThjWmcwcVZVUitNRGc9PQo=",
+      "url": "https://github.com/timefracture/midi-to-td3-downloads/releases/download/T-1.15.1/MIDI.to.TD-3_1.15.1_universal.app.tar.gz"
     }
   }
 }
